@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  line-height: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  align-items: flex-end;
+  grid-gap: 15px 10px;
+}
+
+.distance {
+  font-size: 7pt;
+  justify-self: end;
+}
+
+.row-1 {
+  font-size: 30pt;
+  margin-left: -3px;
+}
+
+.row-2 {
+  font-size: 18pt;
+  margin-left: -1px;
+  letter-spacing: 13px;
+}
+
+.row-3 {
+  font-size: 12pt;
+  margin-left: -1px;
+  letter-spacing: 10px;
+}
+
+.row-4 {
+  font-size: 9pt;
+  margin-left: -1px;
+  letter-spacing: 12px;
+}
+
+.row-5 {
+  font-size: 8px;
+  margin-left: 0px;
+  letter-spacing: 11px;
+}
+
+.row-7 {
+  font-size: 4px;
+  letter-spacing: 5px;
+}
